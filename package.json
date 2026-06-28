@@ -1,0 +1,44 @@
+{
+  "name": "@vanta-ide/noesis",
+  "version": "0.1.0",
+  "description": "Noesis MCP server — wave-based reasoning substrate for AI agents. They store. Noesis knows.",
+  "keywords": [
+    "mcp",
+    "memory",
+    "ai",
+    "agent",
+    "noesis",
+    "persistent-memory",
+    "reasoning",
+    "claude",
+    "claude-code",
+    "model-context-protocol"
+  ],
+  "homepage": "https://github.com/VantaIDE/noesis",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/VantaIDE/noesis.git",
+    "directory": "server"
+  },
+  "license": "MIT",
+  "author": "BlaqGhostShell <vantaide@rreme.dev>",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "noesis": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "serve": "node dist/cli.js serve"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
