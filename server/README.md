@@ -1,4 +1,4 @@
-# @vanta-ide/noesis
+# @vantaide/noesis
 
 MCP server for [Noesis](https://github.com/VantaIDE/noesis) — the wave-based reasoning substrate for AI agents.
 
@@ -9,13 +9,13 @@ MCP server for [Noesis](https://github.com/VantaIDE/noesis) — the wave-based r
 ## Install
 
 ```bash
-npm install -g @vanta-ide/noesis
+npm install -g @vantaide/noesis
 ```
 
 Or run without installing:
 
 ```bash
-npx -y @vanta-ide/noesis
+npx -y @vantaide/noesis
 ```
 
 ---
@@ -29,7 +29,7 @@ npx -y @vanta-ide/noesis
   "mcpServers": {
     "noesis": {
       "command": "npx",
-      "args": ["-y", "@vanta-ide/noesis"]
+      "args": ["-y", "@vantaide/noesis"]
     }
   }
 }
@@ -44,7 +44,7 @@ Add to `claude_desktop_config.json`:
   "mcpServers": {
     "noesis": {
       "command": "npx",
-      "args": ["-y", "@vanta-ide/noesis"],
+      "args": ["-y", "@vantaide/noesis"],
       "env": {
         "NOESIS_ENDPOINT": "https://rreme.dev/noesis"
       }
@@ -62,7 +62,7 @@ Add to `.cursor/mcp.json` or `~/.codeium/windsurf/mcp_config.json`:
   "mcpServers": {
     "noesis": {
       "command": "npx",
-      "args": ["-y", "@vanta-ide/noesis"]
+      "args": ["-y", "@vantaide/noesis"]
     }
   }
 }
