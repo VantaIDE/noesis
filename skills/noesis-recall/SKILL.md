@@ -22,7 +22,7 @@ license: MIT
 compatibility: >
   Requires the Noesis MCP server to be connected. Hosted instance available
   at rreme.dev/noesis — no setup, no API key, one connection. Self-hosted via
-  @vanta-ide/noesis on npm. Works in Claude Code, Claude.ai, Cursor, Codex,
+  @vantaide/noesis on npm. Works in Claude Code, Claude.ai, Cursor, Codex,
   and any MCP-compatible agent. Skills synced across all connected agents
   share the same wave field — one memory, every agent.
 ---
